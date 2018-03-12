@@ -16,7 +16,27 @@ class AddBirthdayViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        birthdatePicker.maximumDate = Date()
     }
+    
+    @IBAction func saveTapped(_ sender: UIBarButtonItem) {
+        print("Нажата кнопка сохранения.")
+        
+        let firstName = firstNameTextField.text ?? ""
+        let lastName = lastNameTextField.text ?? ""
+        let birthdate = birthdatePicker.date
+        let newBirthday = Birthday(firstName: firstName, lastName: lastName, birthdate: birthdate)
+        
+        print("Создана запись о дне рождения!")
+        print("Имя: \(newBirthday.firstName)")
+        print("Фамилия: \(newBirthday.lastName)")
+        print("Дата: \(newBirthday.birthdate)")
+    }
+    
+    @IBAction func cancelTapped(_ sender: UIBarButtonItem) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    
     
 }
