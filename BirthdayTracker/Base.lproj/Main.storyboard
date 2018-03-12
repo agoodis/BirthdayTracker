@@ -132,6 +132,11 @@
                         <barButtonItem key="leftBarButtonItem" title="Cancel" id="ivO-Wl-Wkt"/>
                         <barButtonItem key="rightBarButtonItem" title="Save" id="xnu-xU-E2U"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="birthdatePicker" destination="R1c-rN-eY7" id="fwv-dc-1w0"/>
+                        <outlet property="firstNameTextField" destination="A3L-Hw-5Fe" id="1Fj-aH-c8Q"/>
+                        <outlet property="lastNameTextField" destination="Qnk-te-7by" id="Aii-ak-FmB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
