@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BB571A62056941200D17138 /* Birthday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB571A52056941200D17138 /* Birthday.swift */; };
 		82A34025204D35A500DF0822 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A34024204D35A500DF0822 /* AppDelegate.swift */; };
-		82A34027204D35A500DF0822 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A34026204D35A500DF0822 /* ViewController.swift */; };
+		82A34027204D35A500DF0822 /* AddBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A34026204D35A500DF0822 /* AddBirthdayViewController.swift */; };
 		82A3402A204D35A500DF0822 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82A34028204D35A500DF0822 /* Main.storyboard */; };
 		82A3402D204D35A500DF0822 /* BirthdayTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82A3402B204D35A500DF0822 /* BirthdayTracker.xcdatamodeld */; };
 		82A3402F204D35A500DF0822 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A3402E204D35A500DF0822 /* Assets.xcassets */; };
@@ -16,9 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BB571A52056941200D17138 /* Birthday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Birthday.swift; sourceTree = "<group>"; };
 		82A34021204D35A500DF0822 /* BirthdayTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82A34024204D35A500DF0822 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82A34026204D35A500DF0822 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82A34026204D35A500DF0822 /* AddBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirthdayViewController.swift; sourceTree = "<group>"; };
 		82A34029204D35A500DF0822 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		82A3402C204D35A500DF0822 /* BirthdayTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayTracker.xcdatamodel; sourceTree = "<group>"; };
 		82A3402E204D35A500DF0822 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				82A34024204D35A500DF0822 /* AppDelegate.swift */,
-				82A34026204D35A500DF0822 /* ViewController.swift */,
+				82A34026204D35A500DF0822 /* AddBirthdayViewController.swift */,
 				82A34028204D35A500DF0822 /* Main.storyboard */,
 				82A3402E204D35A500DF0822 /* Assets.xcassets */,
 				82A34030204D35A500DF0822 /* LaunchScreen.storyboard */,
 				82A34033204D35A500DF0822 /* Info.plist */,
 				82A3402B204D35A500DF0822 /* BirthdayTracker.xcdatamodeld */,
+				5BB571A52056941200D17138 /* Birthday.swift */,
 			);
 			path = BirthdayTracker;
 			sourceTree = "<group>";
@@ -139,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82A34027204D35A500DF0822 /* ViewController.swift in Sources */,
+				5BB571A62056941200D17138 /* Birthday.swift in Sources */,
+				82A34027204D35A500DF0822 /* AddBirthdayViewController.swift in Sources */,
 				82A3402D204D35A500DF0822 /* BirthdayTracker.xcdatamodeld in Sources */,
 				82A34025204D35A500DF0822 /* AppDelegate.swift in Sources */,
 			);
