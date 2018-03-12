@@ -26,11 +26,14 @@ class AddBirthdayViewController: UIViewController {
         let lastName = lastNameTextField.text ?? ""
         let birthdate = birthdatePicker.date
         let newBirthday = Birthday(firstName: firstName, lastName: lastName, birthdate: birthdate)
+        let formatter = DateFormatter()
+        formatter.dateStyle = DateFormatter.Style.short
+        
         
         print("Создана запись о дне рождения!")
         print("Имя: \(newBirthday.firstName)")
         print("Фамилия: \(newBirthday.lastName)")
-        print("Дата: \(newBirthday.birthdate)")
+        print("Дата: \(formatter.string(from: newBirthday.birthdate))")
     }
     
     @IBAction func cancelTapped(_ sender: UIBarButtonItem) {
